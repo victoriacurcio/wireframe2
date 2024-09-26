@@ -1,0 +1,123 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.logo{
+  padding: 15px;
+  margin-left: 55px;
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.inicio{
+  list-style: none;
+  display: flex;
+}
+
+.inicio li a{
+  text-decoration: none;
+  padding: 8px;
+  border: 2px solid rgba(198, 184, 180,0.4);
+  border-radius: 8px;
+  margin-left: 4px;
+  background-color: #eeeeee;
+  margin-right: 5px;
+}
+
+#search{
+  margin-top: 25px;
+  align-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 500px;
+}
+
+#go{
+  border-radius: 8px;
+}
+
+#container{
+  display: flex;
+}
+
+main{
+  flex: 80%;
+  margin-left: 100px;
+}
+
+aside{
+  flex: 20%;
+  border: 3px solid rgba(198, 184, 180,0.9);
+  margin-left: 50px;
+  background-color: #eeeeee;
+  margin-top: 20px;
+}
+
+.lado{
+  list-style: none;
+  display: block;
+}
+
+.lado li{
+  margin: 10px;
+}
+
+.lado li a{
+  text-decoration: none;
+  border: 3px solid rgba(198, 184, 180,0.9);
+  border-radius: 8px;
+  padding: 8px;
+  display: block;
+}
+
+.home{
+  list-style: none;
+  display: flex;
+}
+
+.home li{
+  margin: 8px;
+  display: block;
+}
+
+.home li a{
+  text-decoration: none;
+  border: 2px solid rgba(198, 184, 180,0.4);
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #eeeeee;
+}
+
+.casa{
+  margin-left: 250px;
+}
+
+.capa{
+  display: block;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h1{
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.imis{
+  display: flex;
+  align-items: ;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+section div{
+  display: inline-block;
+  padding: 5px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
